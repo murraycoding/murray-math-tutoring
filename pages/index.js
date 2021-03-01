@@ -24,7 +24,7 @@ export default function Home() {
       src="test image e"
       alt=""
       title="How does online tutoring work?"
-      content="This will be filled in later."
+      content="This will be filled in later. This is another change."
       link="contact"
       />
     </>
