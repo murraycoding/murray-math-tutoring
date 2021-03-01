@@ -1,0 +1,29 @@
+@import 'variables';
+
+.sectionTitle {
+  font-family: 'Neucha';
+  text-transform: uppercase;
+  color: $green;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  margin: 5px 0px;
+  text-align: center;
+}
+
+.sectionContent {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: $background-section;
+  text-align: center;
+
+  @media screen and (min-width: 651px) {
+    padding: 10px 70px;
+  }
+}
+
+.sectionText {
+  margin: 0px;
+  padding: 5px 0px;
+}

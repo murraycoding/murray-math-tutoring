@@ -1,0 +1,17 @@
+.backgroundimage {
+  pointer-events: none;
+  z-index: -1;
+  top: 0px;
+  width: 96vw;
+  height: inherit;
+  position: absolute;
+  border: 1px solid grey;
+  margin: 2vh 2vw;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px;
+}
+
+.wrapper {
+  height: fit-content;
+}

@@ -1,0 +1,6 @@
+.pagecontent {
+  padding: 0px calc(100px - 2vw);
+  @media screen and (max-width: 650px) {
+    padding: 0px calc(60px - 2vw);
+  }
+}

@@ -1,0 +1,31 @@
+@import 'variables';
+
+.imageSectionWrapper {
+  /* make this a grid display */
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  margin: 0 auto;
+  @media screen and (max-width:650px) {
+    flex-direction: column;
+  }
+}
+
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  @media screen and (max-width:650px) {
+    align-items: center;
+  }
+}
+
+.textWrapper p {
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.textWrapper button {
+  margin: 0px;
+}
+

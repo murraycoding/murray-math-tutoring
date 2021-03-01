@@ -1,0 +1,57 @@
+@import 'variables';
+
+.desktopNav {
+  display: flex;
+  @media screen and (max-width: 650px) {
+    display: none;
+  }
+  width: 100%;
+  margin: 0px;
+  justify-content: center;
+  padding: 15px 0px;
+}
+
+.navlink {
+  font-family: $header-font;
+  font-size: $fs-large;
+  padding: 5px clamp(10px, 2vw, 100px);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: $black;
+  text-decoration: none;
+  list-style: none;
+  &:hover {
+    color: $green;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
+.title {
+  font-family: $header-font;
+  display: flex;
+  justify-content: center;
+  padding: 4vh 0px 10px 0px;
+  h1 {
+    margin: 0px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: clamp(1.728rem, 4vw, 2.488rem);
+  }
+}
+
+.contactInfo {
+  display: flex;
+  justify-content: center;
+  @media screen and (max-width: 650px) {
+    flex-direction: column;
+    align-items: center;
+  }
+  flex-direction: row;
+  div {
+    padding: 5px 20px;
+    font-family: $header-font;
+    font-size: clamp(1.2rem, 2vw, 1.728rem);
+    letter-spacing: 0.5px;
+  }
+}

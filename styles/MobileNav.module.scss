@@ -1,0 +1,63 @@
+@import 'variables';
+
+.mobileNav {
+  font-family: 'ti83_plus';
+  width: 273px;
+  height: 583px;
+  z-index: 999;
+  display: none;
+  justify-content: center;
+  position: absolute;
+  @media screen and (max-width:650px) {
+    left: -250px;
+    display: flex;
+  }
+}
+
+.open {
+  transition: transform 0.3s linear;
+  transform: rotate(15deg) translateX(200px);
+}
+
+.closed {
+  transition: transform 0.3s linear;
+  transform: rotate(0deg) translateX(0px);
+}
+
+.calcbackground {
+  background-color: $calc-color;
+  color: $calc-font-color;
+  position: absolute;
+  height: 450px;
+  width: 250px;
+  padding-top: 15px;
+  top: 25px;
+  box-shadow: 5px 5px 20px;
+}
+
+.mobileNavLinks {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4px;
+  li {
+    padding: 3px;
+    text-transform: uppercase;
+    color: $calc-font-color;
+    &:hover {
+      text-decoration: underline
+    }
+  }
+}
+
+.mobileNavButton {
+  transform: rotate(0deg);
+  position: absolute;
+  left: 260px;
+  top: -45px;
+  &:hover {
+    transform: rotate(0deg);
+  }
+}
