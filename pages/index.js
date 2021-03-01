@@ -20,6 +20,13 @@ export default function Home() {
       content="Yes! You read that correctly. We believe in what we do so much we ALWAYS give the first hour of tutoring for free to any new students. Contact us today to schedule your first free hour and see if Murray Math Tutoring is right for you!"
       link="contact"
       />
+      <ImageSection
+      src="test image e"
+      alt=""
+      title="How does online tutoring work?"
+      content="This will be filled in later."
+      link="contact"
+      />
     </>
   )
 }
