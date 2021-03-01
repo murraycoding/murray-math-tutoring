@@ -21,7 +21,7 @@ export default function Home() {
       link="contact"
       />
       <ImageSection
-      src="test image e"
+      src="test image 3"
       alt=""
       title="How does online tutoring work?"
       content="This will be filled in later. This is another change."
