@@ -3,6 +3,7 @@ export default function Footer() {
     <>
       <p>This is the footer.</p>
       <p> This is a test for committing green!</p>
+      <p>This is a test again.</p>
     </>
   )
 }
