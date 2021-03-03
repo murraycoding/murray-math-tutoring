@@ -1,9 +1,14 @@
+import FooterStyles from '../styles/Footer.module.scss'
+
+// component imports
+import FooterSection from './FooterSection'
+
 export default function Footer() {
   return (
-    <>
-      <p>This is the footer.</p>
-      <p> This is a test for committing green!</p>
-      <p>This is a test again.</p>
-    </>
+    <footer className={FooterStyles.footerContainer}>
+      <FooterSection>
+        <p>This is a footer section.</p>
+      </FooterSection>
+    </footer>
   )
 }
