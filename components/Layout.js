@@ -1,5 +1,6 @@
 import ContentBody from './ContentBody'
 import Header from './Header'
+import Footer from './footer'
 import PageContent from './PageContent'
 
 export default function Layout({ children }) {
@@ -10,6 +11,7 @@ export default function Layout({ children }) {
         <PageContent>
           { children }
         </PageContent>
+        <Footer />
       </ContentBody>
     </>
   )
