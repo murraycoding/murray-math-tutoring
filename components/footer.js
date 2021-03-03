@@ -9,6 +9,12 @@ export default function Footer() {
       <FooterSection>
         <p>This is a footer section.</p>
       </FooterSection>
+      <FooterSection>
+        <p>This is the second section.</p>
+      </FooterSection>
+      <FooterSection>
+        <p>This is the third section.</p>
+      </FooterSection>
     </footer>
   )
 }
