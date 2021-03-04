@@ -7,7 +7,8 @@ export default function Footer() {
   return (
     <footer className={FooterStyles.footerContainer}>
       <FooterSection>
-        <p>This is a footer section.</p>
+        <p>Phone: (860)690-2007</p>
+        <p>Email: MurrayMathTutoring@gmail.com</p>
       </FooterSection>
       <FooterSection>
         <p>This is the second section.</p>
