@@ -13,7 +13,7 @@ export default function Footer() {
         <p>This is the second section.</p>
       </FooterSection>
       <FooterSection>
-        <p>This is the third section.</p>
+        <p>This is the third section. This is a commit to the footer branch.</p>
       </FooterSection>
     </footer>
   )
