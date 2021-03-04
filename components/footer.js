@@ -6,6 +6,7 @@ import FooterSection from './FooterSection'
 export default function Footer() {
   return (
     <footer className={FooterStyles.footerContainer}>
+      <hr />
       <FooterSection>
         <table>
           <tr>
