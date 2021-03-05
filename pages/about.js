@@ -20,7 +20,7 @@ export default function AboutPage() {
         <p className="bold">All new students get the first hour free!</p>
         <p>We believe in our tutoring so much we ALWAYS give a free hour of tutoring to any new students. For students, we do this to ensure a good match between the tutor and the student. For parents, we want you to make an informed decision about hiring a math tutor. We want both students and parents to know the value they are getting when working with Murray Math Tutoring.</p>
       <div className="centerdiv">
-        <p>Click below to see how other parents and students feel about our services!</p>
+        <p>Fix this and determine why is it not fully expanded.</p>
         <button className="button">
           <Link href="/testimonials">Testimonials</Link>
         </button>
