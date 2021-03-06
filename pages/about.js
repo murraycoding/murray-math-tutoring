@@ -28,3 +28,10 @@ export default function AboutPage() {
     </>
   )
 }
+
+/* 
+To-Do:
+> Fix the styling on the sectionTitle component
+> Create real pictures for the icons on each section
+> Learn about GitHub issues to formally take care of things like this and track changes
+*/
