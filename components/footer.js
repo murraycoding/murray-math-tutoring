@@ -30,3 +30,7 @@ export default function Footer() {
     </footer>
   )
 }
+
+/*
+To-do: import link and update contact information with links
+*/
