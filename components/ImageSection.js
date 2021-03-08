@@ -4,7 +4,7 @@ import Link from 'next/link'
 // style imports
 import ImageSectionStyles from '../styles/ImageSection.module.scss'
 
-export default function ImageSection({ src, alt, title, content, link}) {
+export default function ImageSection({ src, alt, title, content, link, btnText}) {
   return (
     <div className={ImageSectionStyles.imageSectionWrapper}>
       {/* <Image
@@ -17,7 +17,7 @@ export default function ImageSection({ src, alt, title, content, link}) {
       <div className={ImageSectionStyles.textWrapper}>
         <h2>{title}</h2>
         <p>{content}</p>
-        <button className="button"><Link href={`/${link}`}>{link}</Link></button>
+        <button className="button"><Link href={`/${link}`}>{btnText}</Link></button>
       </div>
     </div>
   )
