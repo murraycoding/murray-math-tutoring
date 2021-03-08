@@ -5,8 +5,9 @@ import FooterSection from './FooterSection'
 
 export default function Footer() {
   return (
+    <>
+    <hr className={FooterStyles.footerHR}/>
     <footer className={FooterStyles.footerContainer}>
-      <hr />
       <FooterSection>
         <table>
           <tr>
@@ -28,6 +29,7 @@ export default function Footer() {
         <button className="button">Free Tutoring</button>
       </FooterSection>
     </footer>
+    </>
   )
 }
 
