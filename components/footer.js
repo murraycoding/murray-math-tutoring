@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import FooterStyles from '../styles/Footer.module.scss'
 
 // component imports
@@ -22,7 +23,14 @@ export default function Footer() {
         </table>
       </FooterSection>
       <FooterSection>
-        <p>This is the second section.</p>
+        <div className="footerImageWrapper">
+          <Image
+            src="/MMT-logo.png"
+            alt="logo"
+            height={175}
+            width={175}
+          />
+        </div>
       </FooterSection>
       <FooterSection>
         <p>New students get their first hour of tutoring free! Click here to learn more.</p>
