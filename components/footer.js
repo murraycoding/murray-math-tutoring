@@ -12,13 +12,13 @@ export default function Footer() {
       <FooterSection>
         <table>
           <tr>
-            <td>Phone:</td> <td>(860)690-2007</td>
+            <td>Phone:</td> <td><a className="hoverLink" href="tel:8606902007">(860)690-2007</a></td>
           </tr>
           <tr>
-            <td>Email:</td> <td>MurrayMathTutoring@gmail.com</td>
+            <td>Email:</td> <td><a className="hoverLink" href="mailto:murraymathtutoring@gmail.com" target="_blank">MurrayMathTutoring@gmail.com</a></td>
           </tr>
           <tr>
-            <td>Facebook:</td> <td>@MurrayMathTutoring</td>
+            <td>Facebook:</td> <td><a className="hoverLink" href="https://www.facebook.com/MurrayMathTutoring/" target="_blank">@MurrayMathTutoring</a></td>
           </tr>
         </table>
       </FooterSection>

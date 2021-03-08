@@ -11,8 +11,8 @@ export default function Header () {
         <h1><Link href="/">Murray Math Tutoring</Link></h1>
       </div>
       <div className={HeaderStyles.contactInfo}>
-        <div>MurrayMathTutoring@gmail.com</div>
-        <div>(860)690-2007</div>
+        <div><a className="hoverLink" href="mailto:murraymathtutoring@gmail.com" target="_blank">MurrayMathTutoring@gmail.com</a></div>
+        <div><a className="hoverLink" href="tel:8606902007">(860)690-2007</a></div>
       </div>
       <nav className={HeaderStyles.nav}>
         <ul className={HeaderStyles.desktopNav}>
