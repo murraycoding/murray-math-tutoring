@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import FooterStyles from '../styles/Footer.module.scss'
 
 // component imports
@@ -34,7 +35,7 @@ export default function Footer() {
       </FooterSection>
       <FooterSection>
         <p>New students get their first hour of tutoring free! Click here to learn more.</p>
-        <button className="button">Free Tutoring</button>
+        <button className="button"><Link href="/free-tutoring">Free Tutoring</Link></button>
       </FooterSection>
     </footer>
     </>
