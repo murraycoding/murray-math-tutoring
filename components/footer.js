@@ -24,7 +24,7 @@ export default function Footer() {
         </table>
       </FooterSection>
       <FooterSection>
-        <div className="footerImageWrapper">
+        <div className="imageWrapper">
           <Image
             src="/MMT-logo.png"
             alt="logo"
