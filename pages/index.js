@@ -7,14 +7,16 @@ export default function Home() {
   return (
     <>
       <ImageSection
-      src="test image"
+      src="/APlus.png"
       alt=""
+      height={162}
+      width={156}
       title="Welcome!"
       content="Murray Math Tutoring is an online math tutoring service run by a husband and wife team of certified teachers. For more information, please see our about section."
       link="about"
       btnText="about"
       />
-      <ImageSection
+      {/* <ImageSection
       src="test image 2"
       alt=""
       title="Free Tutoring"
@@ -29,7 +31,7 @@ export default function Home() {
       content="This will be filled in later. This is another change."
       link="contact"
       btnText="contact"
-      />
+      /> */}
     </>
   )
 }
