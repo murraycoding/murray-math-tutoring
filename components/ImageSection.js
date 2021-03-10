@@ -7,7 +7,7 @@ import ImageSectionStyles from '../styles/ImageSection.module.scss'
 export default function ImageSection({ src, alt, height, width, title, content, link, btnText}) {
   return (
     <div className={ImageSectionStyles.imageSectionWrapper}>
-      <div className="imageWrapper">
+      <div className={ImageSectionStyles.imageWrapper}>
         <Image
           src={src}
           height={height}

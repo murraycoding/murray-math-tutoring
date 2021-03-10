@@ -16,6 +16,16 @@ export default function Home() {
       link="about"
       btnText="about"
       />
+      <ImageSection
+      src="/Free.png"
+      alt=""
+      height={162}
+      width={156}
+      title="Your first hour is FREE!"
+      content="Yes! You read that correctly. We believe in what we do so much we ALWAYS give the first hour of tutoring for free to any new students. Contact us today to schedule your first free hour and see if Murray Math Tutoring is right for you!"
+      link="about"
+      btnText="about"
+      />
       {/* <ImageSection
       src="test image 2"
       alt=""
