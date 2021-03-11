@@ -27,14 +27,14 @@ export default function Home() {
         btnText="about"
       />
       <ImageSection
-      src="/Online.png"
-      alt="online"
-      height={162}
-      width={156}
-      title="How does online tutoring work?"
-      content="This will be filled in later. This is another change."
-      link="contact"
-      btnText="contact"
+        src="/Online.png"
+        alt="online"
+        height={162}
+        width={156}
+        title="How does online tutoring work?"
+        content="This will be filled in later. This is another change."
+        link="contact"
+        btnText="contact"
       />
     </>
   )
