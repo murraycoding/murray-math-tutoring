@@ -4,8 +4,10 @@
   /* make this a grid display */
   display: flex;
   flex-direction: row;
-  width: fit-content;
+  width: 80%;
+  height: fit-content;
   margin: 0 auto;
+  align-items: center;
   @media screen and (max-width:650px) {
     flex-direction: column;
   }
@@ -31,6 +33,6 @@
 .imageWrapper {
   display: flex;
   justify-content: center;
-  flex-basis: 600px;
+  padding: 0px 50px 0px 0px;
 }
 

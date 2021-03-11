@@ -10,6 +10,7 @@ export default function ImageSection({ src, alt, height, width, title, content, 
       <div className={ImageSectionStyles.imageWrapper}>
         <Image
           src={src}
+          layout="fixed"
           height={height}
           width={width}
           alt={alt}
