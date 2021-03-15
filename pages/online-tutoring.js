@@ -1,3 +1,5 @@
+import ImageSection from '../components/ImageSection'
+
 export default function OnlineTutoring() {
   return (
     <>
