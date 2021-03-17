@@ -19,7 +19,9 @@ export default function ImageSection({ src, alt, height, width, title, content, 
       <div className={ImageSectionStyles.textWrapper}>
         <h2>{title}</h2>
         <p>{content}</p>
-        <button className="button"><Link href={`/${link}`}>{btnText}</Link></button>
+        { link != "none" && 
+          <button className="button"><Link href={`/${link}`}>{btnText}</Link></button>
+        }
       </div>
     </div>
   )
