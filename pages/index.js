@@ -32,7 +32,7 @@ export default function Home() {
         height={162}
         width={156}
         title="How does online tutoring work?"
-        content="This will be filled in later. This is another change."
+        content="Please click the link below to see how we use professional resources to make online learning as effective as possible. Online Tutoring with Murray Math Tutoring provides the benefits of in-person learning with the comfort of working from your own home."
         link="online-tutoring"
         btnText="online tutoring"
       />
