@@ -12,6 +12,7 @@ export default function OnlineTutoring() {
         width={192}
         title="Google Meet"
         content="We use Google Meet to video chat with our students. Google Meet provides a secure and easy to use environment for tutoring. Both students and tutors can share their screen, communicate effectively and send important resources to one another using the platform."
+        type="external"
         link="http://meet.google.com"
         btnText="Google Meet"
       />
@@ -22,6 +23,7 @@ export default function OnlineTutoring() {
         width={200}
         title="Graphing Calculators"
         content="The Desmos Graphing Calculator is a very powerful and free graphing calculator we like to use as a teaching resource. We also have the ability to display an online TI-84 Calculator on the screen to show students exaclty how to use theirs. This combintation of digital tools makes the learning process easier and more effective. During a session we can also add screenshots of either calculator to the notes we provide students."
+        type="external"
         link="http://www.desmos.com/calculator"
         btnText="Desmos Calculator"
       />
@@ -32,7 +34,7 @@ export default function OnlineTutoring() {
         width={277}
         title="Microsoft Surface Pro"
         content="Using the Microsoft Surface Pro allows us to video chat with the students while writing the math out on our screen as if it were a piece of paper. In real-time, we are talking to the students about the math while writing it out on the computer for them to see. This method has the benefits of in-person learning with the flexibility of learning from the comfort of your own home."
-        link="none"
+        type="none"
       />
       <ImageSection
         src="/microphone.jpg"
@@ -41,7 +43,7 @@ export default function OnlineTutoring() {
         width={250}
         title="Blue Snowball USB Microphone"
         content="We use a professional condensing microphone for premium audio quality. Students can hear us very clearly without background noise. This makes focusing on the lesson that much easier for students."
-        link="none"
+        type="none"
       />
       <p>This is the  for the online tutoring instructions.</p>
     </>

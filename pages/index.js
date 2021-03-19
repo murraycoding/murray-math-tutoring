@@ -13,6 +13,7 @@ export default function Home() {
         width={156}
         title="Welcome!"
         content="Murray Math Tutoring is an online math tutoring service run by a husband and wife team of certified teachers. For more information, please see our about section."
+        type="internal"
         link="about"
         btnText="about"
       />
@@ -23,6 +24,7 @@ export default function Home() {
         width={156}
         title="Your first hour is FREE!"
         content="Yes! You read that correctly. We believe in what we do so much we ALWAYS give the first hour of tutoring for free to any new students. Contact us today to schedule your first free hour and see if Murray Math Tutoring is right for you!"
+        type="internal"
         link="free-tutoring"
         btnText="Free Tutoring"
       />
@@ -33,6 +35,7 @@ export default function Home() {
         width={156}
         title="How does online tutoring work?"
         content="Please click the link below to see how we use professional resources to make online learning as effective as possible. Online Tutoring with Murray Math Tutoring provides the benefits of in-person learning with the comfort of working from your own home."
+        type="internal"
         link="online-tutoring"
         btnText="online tutoring"
       />
