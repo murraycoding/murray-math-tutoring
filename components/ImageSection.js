@@ -4,7 +4,9 @@ import Link from 'next/link'
 // style imports
 import ImageSectionStyles from '../styles/ImageSection.module.scss'
 
-export default function ImageSection({ src, alt, height, width, title, content, link, btnText}) {
+export default function ImageSection({ src, alt, height, width, title, content, type, link, btnText}) {
+  // determines the type of button which will be used, if any
+
   return (
     <div className={ImageSectionStyles.imageSectionWrapper}>
       <div className={ImageSectionStyles.imageWrapper}>
@@ -19,7 +21,10 @@ export default function ImageSection({ src, alt, height, width, title, content, 
       <div className={ImageSectionStyles.textWrapper}>
         <h2>{title}</h2>
         <p>{content}</p>
-        { link != "none" && 
+        { type == "external" && 
+          <button className="button"><a href={link} target="_blank">{btnText}</a></button>
+        }
+        { type == "internal" &&  
           <button className="button"><Link href={`/${link}`}>{btnText}</Link></button>
         }
       </div>
