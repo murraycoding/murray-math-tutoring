@@ -4,7 +4,7 @@ export default function OnlineTutoring() {
   return (
     <>
       <h1 className="sectionTitle">Online Tutoring</h1>
-      <p>Below is a description of how online tutoring works and what resources we use to best help the students we work with. You will also find important links to resources we often use during online tutoring. Please click <a className="hoverLink bold" href="https://drive.google.com/file/d/1eh1307kQlF_0AQ0UuHJeyuK-xwvjLf_d/view?usp=sharing" target="_blank">HERE</a> for a link to our general online tutoring instrcutions.</p>
+      <p className="smallparagraph">Below is a description of how online tutoring works and what resources we use to best help the students we work with. You will also find important links to resources we often use during online tutoring. Please click <a className="hoverLink bold" href="https://drive.google.com/file/d/1eh1307kQlF_0AQ0UuHJeyuK-xwvjLf_d/view?usp=sharing" target="_blank">HERE</a> for a link to our general online tutoring instrcutions.</p>
       <ImageSection
         src="/meet.png"
         alt="google meet"
@@ -45,7 +45,6 @@ export default function OnlineTutoring() {
         content="We use a professional condensing microphone for premium audio quality. Students can hear us very clearly without background noise. This makes focusing on the lesson that much easier for students."
         type="none"
       />
-      <p>This is the  for the online tutoring instructions.</p>
     </>
   )
 }
