@@ -1,10 +1,14 @@
 import ImageSection from '../components/ImageSection'
+import LargeQuote from '../components/largeQuote'
 
 export default function OnlineTutoring() {
   return (
     <>
       <h1 className="sectionTitle">Online Tutoring</h1>
-      <p className="smallparagraph">Below is a description of how online tutoring works and what resources we use to best help the students we work with. You will also find important links to resources we often use during online tutoring. Please click <a className="hoverLink bold" href="https://drive.google.com/file/d/1eh1307kQlF_0AQ0UuHJeyuK-xwvjLf_d/view?usp=sharing" target="_blank">HERE</a> for a link to our general online tutoring instrcutions.</p>
+      <p className="smallparagraph">Below is a description of how online tutoring works and what resources we use to best help the students we work with. You will also find important links to resources we often use during online tutoring. Please click <a className="hoverLink bold" href="https://drive.google.com/file/d/1eh1307kQlF_0AQ0UuHJeyuK-xwvjLf_d/view?usp=sharing" target="_blank">HERE</a> for a link to our general online tutoring instrcutions. Below is a quote from a student who tried online tutoring for the first time.</p>
+      <LargeQuote
+        quote="I was very skeptical at first about doing online tutoring; I believed I would not be able to fully focus on the screen and that I would get distracted. It is a common misconception that online tutoring will make it more difficult to understand what is being taught, however, I learned that it is very easy to follow along with what is being shown on the screen. After one face-to-face tutoring session I switched to online tutoring for convenience and It has been very beneficial, possibly even more helpful than regular tutoring. "
+      />
       <ImageSection
         src="/meet.png"
         alt="google meet"
