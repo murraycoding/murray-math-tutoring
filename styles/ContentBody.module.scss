@@ -15,3 +15,12 @@
 .wrapper {
   height: fit-content;
 }
+
+.newBackground {
+  margin: 2vh 2vw;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px;
+  background-image: url("../public/Ring.jpg");
+  background-repeat: repeat-y;
+  background-size: 30px 30px;
+}
