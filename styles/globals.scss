@@ -171,3 +171,11 @@ p {
   width: 80%;
   margin: 0 auto;
 }
+
+.centerlist {
+  width: fit-content;
+  margin: 0 auto;
+  li {
+    padding: 3px 0px;
+  }
+}
