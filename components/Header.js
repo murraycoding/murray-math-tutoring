@@ -8,7 +8,7 @@ export default function Header () {
   return (
     <>
       <div className={HeaderStyles.title}>
-        <h1><Link href="/">Murray Math Tutoring</Link></h1>
+        <h1><Link href="/">Murray Math Tutoring - Test</Link></h1>
       </div>
       <div className={HeaderStyles.contactInfo}>
         <div><a className="hoverLink" href="mailto:murraymathtutoring@gmail.com" target="_blank">MurrayMathTutoring@gmail.com</a></div>
