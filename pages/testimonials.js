@@ -11,7 +11,7 @@ export default function TestimonialsPage() {
       />
       <Testimonial
         name="Stephanie Ostrowski"
-        important="Gained confidence and raised a whole grade in just 3 sessions."
+        important="Gained confidence and raised a whole grade in just 3 sessions.git "
         review="I highly recommend Murray Math Tutoring!!  My daughter was struggling in math and has now gained confidence and raised a whole grade in just 3 sessions. She’s so excited to be acing her tests."
         last = {false}
       />

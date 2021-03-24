@@ -26,7 +26,7 @@ export default function Footer() {
       <FooterSection>
         <div className="imageWrapper">
           <Image
-            src="/MMT-logo.png"
+            src="/MMT-Logo.png"
             alt="logo"
             height={175}
             width={175}
@@ -41,7 +41,3 @@ export default function Footer() {
     </>
   )
 }
-
-/*
-To-do: import link and update contact information with links
-*/
