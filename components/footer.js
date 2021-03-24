@@ -26,7 +26,7 @@ export default function Footer() {
       <FooterSection>
         <div className="imageWrapper">
           <Image
-            src="/MMT-Logo.png"
+            src="/MMTLogo.png"
             alt="logo"
             height={175}
             width={175}
